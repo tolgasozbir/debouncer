@@ -38,3 +38,10 @@ Debounce base duration:`500 milliseconds.`
     super.dispose();
   }
 ```
+
+## Example
+
+
+
+https://user-images.githubusercontent.com/79727679/174880713-51cd2c20-5467-4371-9f94-a1e4230d7bf3.mp4
+
