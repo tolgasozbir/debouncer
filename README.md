@@ -12,11 +12,13 @@ TextEditingController _controller = TextEditingController();
 
     //...
     child: TextField(
-     controller: _controller,
-        onChanged: (String text){
+      controller: _controller,
+      onChanged: (String text){
+        _debouncer.debounce(
             function: () => search,     // <-- The target method
             milliseconds: 1000,         // <-- The debounce duration
-        }
+        );
+      }
     );
     //...
     
